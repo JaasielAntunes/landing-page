@@ -1,0 +1,201 @@
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #15161B;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.logo span {
+    color: #1A7993;
+}
+
+.secao1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.area-titulo h3 {
+    color: white;
+    font-weight: normal;
+}
+
+.area-titulo h1 {
+    color: white;
+    font-style: 43px;
+    line-height: 50px;
+    margin-top: -18px;
+}
+
+.area-titulo a {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #1A7993;
+    border-radius: 15px;
+    padding: 15px 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.img1 img {
+    width: 400px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.secao-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.secao-cards h2 {
+    color: white;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.card {
+    cursor: pointer;
+    color: white;
+    background-color: #363a44;
+    border-radius: 20px;
+    width: 170px;
+    height: 150px;
+    margin-left: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover {
+    background-color: #1A7993;
+    transition: 0.2s all;
+}
+
+.card img {
+    width: 55px;
+}
+
+.secao3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    background-color: #1A7993;
+    height: auto;
+}
+
+.area-titulo2 h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.area-titulo2 h3 {
+    color: #202125;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -20px;
+}
+
+.area-titulo2 a {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #51545e;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 70px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.img2 img {
+    width: 250px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.area-form h2 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.formulario form {
+    width: 370px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    padding-left: 7px;
+    margin-top: 20px;
+    height: 40px;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+.btn-confirmar:hover {
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #1A7993;
+    transition: 0.2s all;
+    letter-spacing: 1px;
+}
+
+input::placeholder {
+    color: black;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.redes-sociais h3 {
+    color: white;
+    font-size: 21px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    margin-left: 18px;
+}
